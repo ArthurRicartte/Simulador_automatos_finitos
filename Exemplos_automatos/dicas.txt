@@ -4,8 +4,6 @@ Você pode criar o seu próprio autômato e colocá-lo dentro da pasta de exempl
 
 Passo a Passo:
 
---------------
-
 1. Crie um novo arquivo com a extensão `.json` (exemplo: `meu_automato.json`).
 
 2. Salve esse arquivo dentro da pasta de Exemplos_automatos (pode ser onde você desejar).
