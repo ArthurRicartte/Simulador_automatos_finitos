@@ -1,4 +1,4 @@
-# 🤖 Simulador de Autômatos (AFD e AFN)
+# ⚙️ Simulador de Autômatos (AFD e AFN)
 
 Uma aplicação gráfica simples e intuitiva desenvolvida em Python para simular a execução de **Autômatos Finitos Determinísticos (AFD)** e **Autômatos Finitos Não-Determinísticos (AFN)** a partir de arquivos de configuração em formato JSON.
 
@@ -8,7 +8,7 @@ Uma aplicação gráfica simples e intuitiva desenvolvida em Python para simular
 
 O projeto permite que o usuário carregue a definição de um autômato via arquivo `.json`, insira uma cadeia de entrada e visualize o trajeto detalhado das transições passo a passo até o resultado final (aceitação ou rejeição da cadeia).
 
-### 🚀 Funcionalidades
+### 🧑‍💻 Funcionalidades
 * **Suporte a AFD e AFN:** Trata transições simples (string) ou múltiplas (listas).
 * **Carregamento Dinâmico:** Leitura de autômatos via interface gráfica (`filedialog`).
 * **Validação de Alfabeto:** Verifica se cada símbolo da cadeia pertence ao alfabeto definido.
