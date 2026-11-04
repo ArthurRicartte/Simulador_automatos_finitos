@@ -1,0 +1,11 @@
+{
+  "alfabeto": ["a", "b"],
+  "estados": ["q0", "q1", "q2"],
+  "estado_inicial": "q0",
+  "estados_finais": ["q0"],
+  "transicoes": {
+    "q0": { "a": "q1", "b": "q1" },
+    "q1": { "a": "q2", "b": "q2" },
+    "q2": { "a": "q0", "b": "q0" }
+  }
+}
