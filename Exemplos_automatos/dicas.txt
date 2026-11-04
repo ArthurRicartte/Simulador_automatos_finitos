@@ -1,0 +1,54 @@
+Você pode criar o seu próprio autômato e colocá-lo dentro da pasta de exemplos para rodar e testar na aplicação!
+
+
+
+Passo a Passo:
+
+--------------
+
+1. Crie um novo arquivo com a extensão `.json` (exemplo: `meu_automato.json`).
+
+2. Salve esse arquivo dentro da pasta de Exemplos_automatos (pode ser onde você desejar).
+
+3. Abra o arquivo e defina a estrutura do autômato usando a sintaxe JSON:
+
+Exemplo de autômato (siga a formatação dele):
+{
+
+  "alfabeto": ["0", "1"],
+
+  "estados": ["q0", "q1"],
+
+  "estado_inicial": "q0",
+
+  "estados_finais": ["q1"],
+
+  "transicoes": {
+
+    "q0": {
+
+      "0": "q0",
+
+      "1": "q1"
+
+    },
+
+    "q1": {
+
+      "0": ["q0", "q1"],
+
+      "1": "q1"
+
+    }
+
+  }
+
+}
+
+
+
+4. Execute a aplicação (`python Scripts.py`).
+
+5. Clique no botão "Carregar JSON do Autômato" e selecione o seu arquivo criado.
+
+6. Digite a cadeia que deseja testar e clique em "Simular Cadeia"!
