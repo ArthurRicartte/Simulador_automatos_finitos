@@ -49,4 +49,4 @@ Exemplo de autômato (siga a formatação dele):
 
 5. Clique no botão "Carregar JSON do Autômato" e selecione o seu arquivo criado.
 
-6. Digite a cadeia que deseja testar e clique em "Simular Cadeia"!
+6. Digite a cadeia que deseja testar e clique em "Simular Cadeia"
